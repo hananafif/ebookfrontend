@@ -1,0 +1,29 @@
+<ion-content class="home" padding>
+	<button class="tombol3" (click)="quiz()" ion-button><ion-icon name="md-arrow-back"></ion-icon></button>
+	<h2 class="erd2 materi1">Quiz</h2>
+	<br>
+	<h5 class="erd2">Apakah Kepanjangan ERD?</h5>
+	<ion-list no-lines radio-group [(ngModel)]="relationship">
+  <ion-item class="trans">
+    <ion-label class="radio-value">Entitiy Relationalship Diagram</ion-label>
+    <ion-radio item-left color="light" value="Entitiy Relationalship Diagram" class="radio"></ion-radio>
+  </ion-item>
+  <ion-item class="trans">
+    <ion-label class="radio-value">Entity Rational Diagram</ion-label>
+    <ion-radio item-left color="light" class="radio"></ion-radio>
+  </ion-item>
+  <ion-item class="trans">
+    <ion-label class="radio-value">Entitas Rasio Dialog</ion-label>
+    <ion-radio item-left color="light" value="Entitas Rasio Dialog" class="radio"></ion-radio>
+  </ion-item>
+  <ion-item class="trans">
+    <ion-label class="radio-value">Entity Relation Diagram</ion-label>
+    <ion-radio item-left color="light" value="Entity Relation Diagram" class="radio"></ion-radio>
+  </ion-item>
+</ion-list>
+<div id="navigation">
+	<button class="nav-button-left" ion-button><ion-icon name="ios-arrow-back"></ion-icon></button>
+	<div class="num-page">1</div>
+	<button class="nav-button-right" ion-button><ion-icon name="ios-arrow-forward"></ion-icon></button>
+</div>
+</ion-content>
